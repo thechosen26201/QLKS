@@ -1,0 +1,71 @@
+.dialog.blur {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.199);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-container {
+    width: 400px;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dialog__content, .dialog__button {
+    display: flex;
+    align-items: center;
+}
+
+.dialog__content .fa-triangle-exclamation {
+    color: #ffc916;
+}
+.dialog__content i {
+    font-size: 24px;
+}
+
+.dialog__button {
+    justify-content: flex-end;
+    margin-top: 12px;
+}
+
+.dialog--msg {
+    margin: 10px 0 10px 10px;
+}
+.cancel, .deny {
+    height: 36px;
+    min-width: 100px;
+    line-height: 36px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.deny {
+    margin-right: 10px;
+    border: 1px solid #afafaf;
+}
+
+.cancel {
+    background-color: #1aa4c8;
+    color: #fff;
+}
+
+.cancel:hover {
+    background-color: #1aa5c8cc;
+}
+
+.cancel:hover, .deny:hover {
+    cursor: pointer;
+}
+
+

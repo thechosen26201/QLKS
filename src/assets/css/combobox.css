@@ -1,0 +1,51 @@
+.comboboxHotel {
+    position: relative;
+    width: 240px;
+}
+.list-hotel {
+    position: absolute;
+    min-width: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    top: 40px;
+    max-height: 116px;
+    overflow-y: scroll;
+    z-index: 10;
+}
+
+.list__item {
+    height: 36px;
+    line-height: 36px;
+    margin: 2px;
+    padding: 0 34px;
+    border-radius: 7px;
+    white-space: nowrap;
+}
+
+.list__item:hover {
+    background-color: #31cec3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list__item:active {
+    background-color: #40e3d8;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #96989e; 
+    border-radius: 7px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #919294; 
+  }

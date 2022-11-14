@@ -1,0 +1,41 @@
+@import url('../css/style.css');
+@import url('../css/dr-framework.css');
+@import url('../css/navigation.css');
+@import url('../css/revslider.css');
+@import url('../css/jquery.bxslider.css');
+@import url('../css/zebra.css');
+@import url('../css/responsive.css');
+@import url('../css/style.css');
+@import url('../css/login.css');
+@import url('../css/order.css');
+@import url('../css/register.css');
+@import url('../fontawesome-pro-6.1.1-web/css/all.min.css');
+@import url('../css/combobox.css');
+@import url('../css/dialog.css');
+
+.inner-form #contact {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    justify-content: space-between;
+}
+
+.side-form .el-input {
+    margin-top: 15px;
+}
+
+.wd-100 {
+    width: 100% !important;
+}
+.el-pagination.is-background .el-pager li:not(.is-disabled).is-active { background-color: #31cec3 !important; } 
+.el-pagination.is-background .el-pager li:not(.is-disabled):hover {
+    color: #31cec3 !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+    pointer-events: none;
+}
+
+.accomodation5-content .details:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.register {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.pop-up__container {
+    background-color: #fff;
+    z-index: 11;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 500px;
+    padding: 25px;
+}
+
+.register input {
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.register .input__title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
