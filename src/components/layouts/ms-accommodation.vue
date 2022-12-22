@@ -129,7 +129,6 @@ export default {
         await axios
         .get(api)
         .then(response => {
-          // console.log(typeof response.data.data);
           this.roomArray = response.data.data;
           this.totalRecord = response.data.totalCount;
           this.serviceArray = [];
